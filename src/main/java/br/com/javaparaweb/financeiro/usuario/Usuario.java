@@ -3,13 +3,12 @@ package br.com.javaparaweb.financeiro.usuario;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import org.hibernate.annotations.Entity;
 import org.hibernate.annotations.NaturalId;
 
-@SuppressWarnings("deprecation")
 @Entity
 public class Usuario implements Serializable{
 	
