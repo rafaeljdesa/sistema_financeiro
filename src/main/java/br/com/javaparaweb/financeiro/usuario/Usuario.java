@@ -16,6 +16,12 @@ import javax.persistence.UniqueConstraint;
 
 @Entity
 public class Usuario implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -108299340090937486L;
+	
+	
 	@Id
 	@GeneratedValue
 	private Integer codigo;
