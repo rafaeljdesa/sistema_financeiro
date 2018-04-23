@@ -18,6 +18,11 @@ import br.com.javaparaweb.financeiro.usuario.Usuario;
 @Entity
 public class Conta implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5365453244434992076L;
+
 	@Id
 	@GeneratedValue
 	private Integer conta;
